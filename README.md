@@ -63,3 +63,28 @@ Cada sesión crea una carpeta `output/<objetivo>/` con el estado (`session.json`
 ## Estado
 
 Proyecto personal de aprendizaje. Los detectores usan payloads y heurísticas simples, así que los resultados hay que confirmarlos a mano antes de reportar nada.
+
+## Créditos
+
+BBRecon no incluye código de terceros: orquesta herramientas externas que hay que instalar aparte, cada una con su propia licencia. Todo el mérito del trabajo de fondo es de sus autores.
+
+| Herramienta | Uso en BBRecon | Enlace |
+| --- | --- | --- |
+| nmap | Escaneo de puertos y servicios | https://nmap.org |
+| ffuf | Fuerza bruta de directorios | https://github.com/ffuf/ffuf |
+| nuclei y subfinder | Plantillas de vulnerabilidades y subdominios | https://github.com/projectdiscovery/nuclei · https://github.com/projectdiscovery/subfinder |
+| httpx | Sondeo HTTP | https://github.com/projectdiscovery/httpx |
+| Amass | Enumeración de subdominios | https://github.com/owasp-amass/amass |
+| massdns | Resolución DNS masiva | https://github.com/blechschmidt/massdns |
+| gau y waybackurls | URLs históricas | https://github.com/lc/gau · https://github.com/tomnomnom/waybackurls |
+| LinkFinder | Endpoints en archivos JavaScript | https://github.com/GerbenJavado/LinkFinder |
+| Dalfox | Pruebas de XSS | https://github.com/hahwul/dalfox |
+| Jaeles | Escaneo basado en firmas | https://github.com/jaeles-project/jaeles |
+| 403bypasser | Pruebas de bypass de 403 | https://github.com/yunemse48/403bypasser |
+| Keye y keyleak-detector | Detección de claves expuestas | https://github.com/s0md3v/Keye · https://github.com/Amal-David/keyleak-detector |
+
+Para el recon de subdominios también consulta [crt.sh](https://crt.sh) (transparencia de certificados). Las notas de `docs/` recopilan recursos de aprendizaje y repositorios como [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings), [sqlmap](https://github.com/sqlmapproject/sqlmap) y [katana](https://github.com/projectdiscovery/katana).
+
+## Licencia
+
+Código bajo [licencia MIT](LICENSE). © 2026 Nahuel Emiliano Diaz.
